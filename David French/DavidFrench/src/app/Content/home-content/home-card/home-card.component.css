@@ -1,0 +1,60 @@
+.container{
+    width:1200px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+.container-two{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.focusText{
+    font-size: 34px;
+    color:white;
+    max-width: 100vw;
+    font-family: 'Dawning of a New Day', cursive;
+}
+.first{
+ margin-top:-10%;
+ font-size: 94px;
+}
+
+.second{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+@media (max-width: 1280px){
+    .container-two{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1080px){
+    .first{
+        font-size: 84px;
+    }
+    .second{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 780px){
+    .first{
+        font-size: 54px;
+    }
+    .second{
+        font-size: 28px;
+    }
+}
+
+   
+@media (max-width: 480px){
+    .first{
+        font-size: 44px;
+    }
+    .second{
+        font-size: 24px;
+    }
+}
+

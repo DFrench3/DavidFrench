@@ -1,0 +1,14 @@
+.container{
+    margin-top: 40px;
+    width:100%;
+    height:60vh;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+p{
+    width:50%;
+}
+app-portfolio-content-card{
+    width:100%;
+}

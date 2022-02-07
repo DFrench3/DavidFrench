@@ -1,0 +1,16 @@
+<ul [ngClass]="[bntStyle]" [class.navbar-visible]="check">
+    <li><a (click)=onclick() routerLink="/">Home</a></li>
+    <!-- <li><a routerLink="/Portfolio"> Portfolio</a></li> -->
+    <li><a (click)=onclick() routerLink="/About">About</a></li>
+    <li><a (click)=onclick() routerLink="/Services">Packages</a></li>
+    <li><a (click)=onclick() routerLink="/Contact">Contact</a></li>
+</ul>
+
+<a  (click)=onclick()>
+    <div class="burger">
+        <div class="line1" [class.line1-toggle]="check"></div>
+        <div class="line2" [class.line2-toggle]="check"></div>
+        <div class="line3" [class.line3-toggle]="check"></div>
+</div>
+
+</a>

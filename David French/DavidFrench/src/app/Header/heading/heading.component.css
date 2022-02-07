@@ -1,0 +1,101 @@
+.container{
+    display:flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-family: Baskerville Old Face;
+    font-weight: 100;
+    color:#ffffff;
+}
+
+/* .background{
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: #41729F;
+    width:100vw;
+    height:150px;
+    z-index: -1;
+} */
+
+.images{
+    width:110px;
+    height:90px;
+}
+
+
+.name{
+    padding-top: 70px;
+    font-size: 36px;
+
+}
+
+.developer{
+    padding-top: 100px;
+    left: 120px;
+    font-size: 26px;
+}
+
+.images{
+    padding: 40px 20px 0px 0px;
+}
+
+.name-container{
+    display:flex;
+    justify-content: left;
+}
+
+@media (max-width: 1080px){
+
+.container{
+    justify-content: space-evenly;
+    margin-left: 50px;
+   }
+
+}
+
+@media (max-width: 896px){
+    
+    /* .developer{
+        right:90;
+        font-size: 17px;
+    }
+    .name{
+       padding-top: 70px;
+       font-size: 24px;
+   } */
+   .images{
+       width:90px;
+       height:70px;
+   }
+   
+   }
+
+
+   @media (max-width: 780px){
+    .developer{
+        right:90;
+        font-size: 17px;
+    }
+    .name{
+       padding-top: 70px;
+       font-size: 24px;
+   }
+    .container{
+        justify-content: start;
+        margin:0px 0px 0px 10px;
+    }
+
+   }
+
+   @media (max-width: 480px){
+    
+    .name-container{
+        flex-wrap: wrap;
+    }
+    .developer{
+        padding:0;
+    }
+
+   }

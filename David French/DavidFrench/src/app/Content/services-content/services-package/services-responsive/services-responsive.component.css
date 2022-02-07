@@ -1,0 +1,39 @@
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin:auto;
+    padding-bottom: 40px;
+}
+
+.container-item{
+    display: flex;
+    
+    flex-direction: column;
+
+    text-align: center;
+    width:290px;
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 1200px;
+    margin:20px;
+    background-color: #ebf0f9
+}
+
+h4,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-clock, .fa-angular, .fa-shipping-fast, .fa-pencil-ruler, .fa-tools{
+    font-size: 46px;
+    color:lightskyblue;
+
+}
+
+h4{
+    font-size: 24px;
+    margin:20px 0px 20px 0px;
+}
+p{
+    font-size: 16px;
+}

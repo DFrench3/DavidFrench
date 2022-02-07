@@ -1,0 +1,19 @@
+<div class="container">
+
+<h3> Let's Chat!</h3>
+  <div class="contact-box">
+    
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqwppon" method="post">
+
+            <fieldset id="fs-frm-inputs">
+                <input type="text" name="name" id="full-name" placeholder="Name" class="inputField" required="">
+                <input type="email" name="_replyto" id="email-address" placeholder="Email" class="inputField"  required="">
+              <textarea rows="5" name="message" id="message"  required="" placeholder="Message"></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <re-captcha (resolved)="resolved($event)" siteKey="6Lfl6k0eAAAAAD_jVeseOjhT2wc5vShNZYGygGhI"></re-captcha>
+            <input type="submit" value="Submit" class="button-53" >
+            
+    </form>
+  </div>
+</div>
